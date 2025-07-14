@@ -11,13 +11,16 @@ misturar latas e galões, de forma que o desperdício de tinta seja menor. Acres
 metrosQuadrados = float(input('Digite a área em m2 da área a ser pintada: '))
 
 tinta = metrosQuadrados / 6
-
+tintaFolga = tinta * 1.1
+qtdLataTinta = tinta / 18
+qtdGalaoTinta = tinta / 3.6
+valorPagarLata = round(qtdLataTinta) * 80
+valorPagarGalao = round(qtdGalaoTinta) * 25
 # Latas
+
 if (tinta > 18):
-    qtdLataTinta = tinta / 18
-    qtdGalaoTinta = tinta / 3.6
-    valorPagarLata = round(qtdLataTinta) * 80
-    valorPagarGalao = round(qtdGalaoTinta) * 25
     print(f'Total de tinta a usar: {tinta}L\nLatas de tinta: {round(qtdLataTinta)}\nGalões de tinta: {round(qtdGalaoTinta)}\nValor a pagar Lata: R${valorPagarLata}\nValor a pagar Galão: R${valorPagarGalao}')
 else:
-    print('Teste')
+    print(f'Total de tinta a usar: {tinta}L\nLatas de tinta: {round(qtdLataTinta)}\nGalões de tinta: {round(qtdGalaoTinta)}\nValor a pagar Lata: R${valorPagarLata}\nValor a pagar Galão: R${valorPagarGalao}')
+
+    

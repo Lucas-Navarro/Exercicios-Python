@@ -6,5 +6,7 @@ velocidadeInternet = float(input('Digite a velocidade da internet: '))
 
 tempoDownload = tamanhoArquivo / velocidadeInternet
 
-print(f'Tempo estimado: {tempoDownload}s')
-
+if (tempoDownload > 60):
+    print(f'Tempo estimado: {tempoDownload}s')
+else:
+    print(f'Tempo estiamdo: {tempoDownload}m')
