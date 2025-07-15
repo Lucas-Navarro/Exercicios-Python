@@ -9,4 +9,12 @@ for i in range(3):
     preco.append(precoProduto)
 
 print(produtos)
-print(preco)
+print(preco)    
+
+if preco[0] > preco[1] and preco[0] > preco[2]:
+    print(f'Produto mais barato é {produtos[0]}\nPreço: R${preco[0]}')
+elif preco[1] > preco[0] and preco[1] > preco[2]:
+    print(f'Produto mais barato é {produtos[1]}\nPreço: R${preco[1]}')
+else:
+    print(f'Produto mais barato é {produtos[2]}\nPreço: R${preco[2]}')
+
