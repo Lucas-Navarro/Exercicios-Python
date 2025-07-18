@@ -3,6 +3,10 @@
 <p>São 4 tipos de exercicios</p>
 
 - Estrutura Sequencial
+  - Estruturando o código basicos sem Estruturas codicionais e laços de repetição
 - Estrutura de Decisão
+  - Apenas com if e Else
 - Estrutura de Repetição
+  - Utilizando o for e while
 - Exercícios de Lista
+   - Usando Arrays
