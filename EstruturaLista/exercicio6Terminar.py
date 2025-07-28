@@ -4,12 +4,15 @@ alunos = []
 medias = []
 
 for i in range(2):
+    media = []
     aluno = str(input('Digite seu nome:'))
     alunos.append(aluno)
     for x in range(4):
         nota = float(input('Digite sua nota: '))
-        nota += nota
-
+        media.append(nota)
+    calMedia = sum(nota) / 4
+    medias.append(calMedia)
+    
 
 print(alunos)
 print(medias)

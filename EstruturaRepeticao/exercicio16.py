@@ -1,8 +1,3 @@
-# Faça um programa que calcule o fatorial de um número inteiro fornecido pelo usuário. Ex.: 5!=5.4.3.2.1=120
+# A série de Fibonacci é formada pela seqüência 0,1,1,2,3,5,8,13,21,34,55,...
+#  Faça um programa que gere a série até que o valor seja maior que 500.
 
-numero = int(input('Digite o número que vai ser fatorado: '))
-i = 1
-for i in range(numero):
-    total = numero * i
-    total += total
-    print(total)
